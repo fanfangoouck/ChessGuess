@@ -1,1 +1,3 @@
 # ChessGuess
+
+For a ChessGuess game, one player will be the hider and the other is the guesser. The hider begins by selecting the size of the game which can be from 0 to 32. The hider then selects up to size chess pieces out of a chess set and hides them. Each piece has a colour one of ’B’ black or ’W’ white and a kind: ’K’ king, ’Q’ queen, ’R’ rook, ’B’ bishop, ’N’ knight or ’P’ pawn. We will represent pieces by length 2 strings, e.g. ”BK” is a black king, and ”WP” is a white pawn. Note that they are selected from a standard chess set so there is e.g. at most two black rooks that can be selected, or at most 8 white pawns.
